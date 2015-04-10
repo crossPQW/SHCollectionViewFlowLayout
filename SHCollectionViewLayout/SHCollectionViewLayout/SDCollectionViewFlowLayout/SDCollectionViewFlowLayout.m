@@ -26,7 +26,7 @@
         
         for (UICollectionViewLayoutAttributes *item in items) {
             UIAttachmentBehavior *spring = [[UIAttachmentBehavior alloc] initWithItem:item attachedToAnchor:item.center];
-            spring.length = 1;
+            spring.length = 0;
             spring.damping = 0.5;
             spring.frequency = 1;
             
