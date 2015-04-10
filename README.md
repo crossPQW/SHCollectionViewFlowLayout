@@ -10,7 +10,7 @@
     spring.damping = 0.5;
     spring.frequency = 0.8f;
 `
-![image](http://github.com/crossPQW/SHCollectionViewFlowLayout/raw/master/resoures/layout.gif)
+![点击预览效果图](http://github.com/crossPQW/SHCollectionViewFlowLayout/raw/master/resoures/layout.gif)
 
 #注意事项
 如果给collectionView设置了数据源并且通过reloadData刷新数据的话,需要再刷新数据的时候调用reset方法.
